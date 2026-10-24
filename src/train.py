@@ -17,10 +17,10 @@ def train_model():
         )
         
     print("Loading and preprocessing data...")
-    # Load dataset natively (respecting the header row in your repository file)
+
+    # Load dataset
     df = pd.read_csv(iris_local_path)
     
-    # Preprocess matching your specific repository file matrix columns
     df = df.drop(columns=['Id'])
     df = df.rename(columns={
         'SepalLengthCm': 'sepal_length',
