@@ -1,0 +1,12 @@
+md5: 4d4addc7b394295d8cb6306f89dfa6aa
+frozen: true
+deps:
+- path: Iris.csv
+  repo:
+    url: https://github.com/Yuvi143/Iris-Dataset
+    rev_lock: 6fd9487231af834da573b6e9f16a7913b38dca19
+outs:
+- md5: 717820ef0af287ff346c5cabfb4c612c
+  size: 5107
+  hash: md5
+  path: Iris.csv
